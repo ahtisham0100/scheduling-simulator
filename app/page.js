@@ -292,9 +292,14 @@ export default function CPUSchedulingSimulator() {
           </TabsContent>
         </Tabs>
       </div>
-      <Badge variant="secondary" className="text-lg px-4 py-2">
-Developed By #Ahtisham
-              </Badge>
+      <Badge
+  variant="secondary"
+  className="text-sm md:text-base px-4 py-2 rounded-full tracking-wide shadow-sm"
+  aria-label="Developer credit"
+>
+  Developed by <span className="font-semibold text-primary ml-1">#Ahtisham</span>
+</Badge>
+
     </div>
     
   )
