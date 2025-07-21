@@ -155,9 +155,7 @@ export default function CPUSchedulingSimulator() {
                 <CardTitle className="text-3xl">CPU Scheduling Simulator</CardTitle>
                 <p className="text-gray-600 mt-2">Interactive visualization of CPU scheduling algorithms</p>
               </div>
-              <Badge variant="secondary" className="text-lg px-4 py-2">
-                Educational Tool
-              </Badge>
+              
             </div>
           </CardHeader>
         </Card>
@@ -294,6 +292,10 @@ export default function CPUSchedulingSimulator() {
           </TabsContent>
         </Tabs>
       </div>
+      <Badge variant="secondary" className="text-lg px-4 py-2">
+Developed By #Ahtisham
+              </Badge>
     </div>
+    
   )
 }
